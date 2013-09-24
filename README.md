@@ -8,9 +8,15 @@ A simple ftp software including server and client in Linux operating system
 
 1. start ftp server (default host: 127.0.0.1) <br>
 ```
+gcc -o ftp_server ftp_server.c
+```<br>
+```
 ./ftp_server <port>
 ```
 2. start ftp client <br>
+```
+gcc -o ftp_client ftp_client.c
+```<br>
 ```
 ./ftp_client <host> <port>
 ```

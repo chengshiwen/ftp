@@ -25,10 +25,10 @@
 #define QUIT 7
 
 struct sockaddr_in server;	// 控制连接的socket
-struct hostent* hent;	// 服务器主机hostent*指针
-char user[20];		// 用户名
-char pass[20];		// 密码
-int data_port;	// 数据连接端口
+struct hostent* hent;		// 服务器主机hostent*指针
+char user[20];			// 用户名
+char pass[20];			// 密码
+int data_port;			// 数据连接端口
 
 // 报错
 void errorReport(char* err_info) {
